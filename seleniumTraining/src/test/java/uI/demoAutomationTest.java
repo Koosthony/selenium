@@ -9,7 +9,6 @@ public class demoAutomationTest {
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		
-		//System.setProperty("webdriver.chrome.driver",	"C:\\Users\\koost\\Downloads\\chromedriver_win32\\chromedriver.exe\"");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com");
 		driver.manage().window().maximize();
